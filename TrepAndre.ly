@@ -17,15 +17,12 @@
 }
 
 Trob = \new Staff {
-  \relative {
-    \clef "bass"
-    \key c \major
-
-  \time 4/4
-    a16 b16 b16 a16 e'16 e16 e16 d16 b16 b16 a16 r2|
-    r2|
-    R1 |
-    R1 |
+  \relative  a {
+    \clef "bass"   \key bes \minor  \time 4/4 
+    a,16 b16 e16 b16 e16 b16 e16 b16 e4 r4 |
+    a,16 b16 e16 b16 e16 b16 e16 b16 e4 r4 |
+    a,16 b16 e16 b16 e16 b16 e16 b16 e4 r4 |
+    a,16 b16 e16 b16 e16 b16 e16 b16 e4 r4 |
   }
 }
 
@@ -33,7 +30,7 @@ Trob = \new Staff {
 
   <<
     \Sax
-    
+    \Trob
   >>
 
 \layout {}
