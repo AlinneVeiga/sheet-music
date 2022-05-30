@@ -55,12 +55,12 @@ PartPFourVoiceOne =  \relative b' {
         | % 33
         r8 \stemUp e8 \stemUp fis8 [ \stemUp g8 ] \stemUp b8 [ \stemUp g8
         ] \break | % 34
-        \stemDown b4. ~ \stemDown b16 [ \stemDown a8 \stemDown b16
-        \stemDown c8 ~ ] | % 35
-        \stemDown c4 \stemUp a4 \stemUp g4 | % 36
-        \stemUp fis8 [ \stemUp e8 ] \stemUp d8 [ \stemUp e8 ] r4 | % 37
-        r4 r2 | % 38
-        r2 r4 \break | % 39
+        \stemDown b4. ~ \stemDown b16 [ \stemDown a8 \stemDown b8
+        \stemDown c16 ~ ] | % 35
+        \stemDown c4 r8 \stemUp a4 \stemUp g8 ~ | % 36
+        \stemUp g8 [\stemUp fis8  \stemUp e8  \stemUp d16 ] \stemUp e4 r16 | % 37
+        R2. | % 38
+        R2. \break | % 39
         R2. | \barNumberCheck #40
         r8 \stemUp e8 \stemUp fis8 [ \stemUp g8 ] \stemUp b8 [ \stemUp g8
         ] | % 41
