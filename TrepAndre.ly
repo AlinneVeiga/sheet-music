@@ -16,7 +16,7 @@
     f4 r4 r16 g16 c16 g16 c16  g16 c16 g16 |
     f4 r4 r16 g,16 c16 g16 c16  g16 c16 g16|
     f4 r4 r16 g16 c16  g16 c16 g16 c16 g16|
-    R1 |
+    f4 r4 r4 r4 |
     R1 |
     R1 |
     R1 |
@@ -35,7 +35,7 @@ Trob = \new Staff {
     aes4   b16 aes16 e'16 ees8.  r8  ges,4 |
     aes4   b16 aes16 e'16  ees8.   r8  ges16 e16  ees16 des16 |
     aes4   b16 aes16 e'16 ees8.  r8  ges,4 |
-    R1 |
+    aes4  r4 r4 r4 |
     R1 |
     R1 |
     R1 |
