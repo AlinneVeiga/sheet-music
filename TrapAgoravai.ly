@@ -71,6 +71,6 @@ PartPOneVoiceOne =  \relative as {
         >>
     \layout {}
     % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 100 }
+    \midi {\tempo 4 = 100 }
     }
 
