@@ -26,7 +26,7 @@
 
 Trob = \new Staff {
   \relative  a {
-    \clef "bass"   \key bes \minor  \time 4/4 
+    \clef "bass"   \key des \major  \time 4/4 
     aes,16 b16 ees16 b16 ees16 b16 ees16 b16 ees4 r4 |
     aes,16 b16 ees16 b16 ees16 b16 ees16 b16 ees4 r4 |
     aes,16 b16 ees16 b16 ees16 b16 ees16 b16 ees4 r4 |
@@ -64,13 +64,11 @@ Trump = \new Staff {
 }
  
 \score {
-
-  <<
-   \Sax
-   \Trob
-   \Trump
-  >>
-
+<<
+  %\Sax 
+  \Trob 
+  %\Trump  
+    >>
 \layout {}
 \midi {}
 }
