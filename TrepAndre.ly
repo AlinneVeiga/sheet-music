@@ -21,6 +21,10 @@
     R1 |
     R1 |
     R1 |
+    R1 |
+    R1 |
+    R1 |
+    R1
     }
 }
 
@@ -31,22 +35,26 @@ Trob = \new Staff {
     aes,16 b16 ees16 b16 ees16 b16 ees16 b16 ees4 r4 |
     aes,16 b16 ees16 b16 ees16 b16 ees16 b16 ees4 r4 |
     aes,16 b16 ees16 b16 ees16 b16 ees16 b16 ees4 r4 |
-    aes,4  b16 aes16 e'16  ees8.   r8  ges16 e16  ees16 des16 | 
-    aes4   b16 aes16 e'16 ees8.  r8  ges,4 |
-    aes4   b16 aes16 e'16  ees8.   r8  ges16 e16  ees16 des16 |
-    aes4   b16 aes16 e'16 ees8.  r8  ges,4 |
-    aes4  r4 r4 r4 |
+    aes,8.  b16 aes16 e'16  ees4 r8  ges16 e16  ees16 des16 | 
+    aes8.   b16 aes16 e'16  ees4.  ges,4 |
+    aes8.   b16 aes16 e'16  ees4.  ges16 e16  ees16 des16 |
+    aes8.   b16 aes16 e'16  ees4.  ges,4 |
+    aes8.   r16 r4 r2|
     R1 |
     R1 |
     R1 |
     R1 |
-    }
+    R1 |
+    R1 |
+    R1 | 
+    R1
+ }
 }
  
  
 Trump = \new Staff {
   \relative   {
-    \key ees \major  \time 4/4   \transposition es
+    \key ees \major  \time 4/4  
     R1 |
     R1 |
     R1 |
@@ -62,14 +70,15 @@ Trump = \new Staff {
     aes8 as16 [  bes16  b16  as8.]   es'4 des4 | 
     b8  as16 [  bes16  b16  as8. ]   e4  ges4 | 
     as8 as16 [  bes16  b16  as8. ]  es'2 ~  |
-    es2~es4 r4  }
+    es2~es4 r4  |
+    R1}
 }
  
 \score {
 <<
-  %\Sax 
+  \Sax 
   \Trob 
-  %\Trump  
+  \Trump  
     >>
 \layout {}
 \midi {}
