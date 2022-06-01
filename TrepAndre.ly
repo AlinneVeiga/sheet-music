@@ -4,7 +4,10 @@
 }
 
 
- Sax = \new Staff {
+ Sax = \new Staff   \with {
+  instrumentName = "Sax Alto"
+  shortInstrumentName = "Sax.Alto "
+}
   \relative {
   \key bes  \major \transposition es   \time 4/4
 
@@ -26,9 +29,12 @@
     R1 |
     R1
     }
-}
 
-Trob = \new Staff {
+
+Trob = \new Staff \with {
+  instrumentName = "Trombone"
+  shortInstrumentName = "Tromb."
+}
   \relative  a {
     \clef "bass"   \key des \major  \time 4/4 
     aes,16 b16 ees16 b16 ees16 b16 ees16 b16 ees4 r4 |
@@ -49,10 +55,13 @@ Trob = \new Staff {
     R1 | 
     R1
  }
+
+ 
+ 
+Trump = \new Staff \with {
+  instrumentName = "Trompete"
+  shortInstrumentName = "Pete."
 }
- 
- 
-Trump = \new Staff {
   \relative   {
     \key ees \major  \time 4/4  
     R1 |
@@ -72,7 +81,7 @@ Trump = \new Staff {
     as8 as16 [  bes16  b16  as8. ]  es'2 ~  |
     es2~es4 r4  |
     R1}
-}
+
  
 \score {
 <<
