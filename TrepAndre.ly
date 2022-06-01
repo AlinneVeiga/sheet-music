@@ -6,7 +6,7 @@
 
  Sax = \new Staff   \with {
   instrumentName = "Sax Alto"
-  shortInstrumentName = "Sax.Alto "
+  shortInstrumentName = "Alto "
 }
   \relative {
   \key bes  \major \transposition es   \time 4/4
@@ -33,7 +33,7 @@
 
 Trob = \new Staff \with {
   instrumentName = "Trombone"
-  shortInstrumentName = "Tromb."
+  shortInstrumentName = "Bone"
 }
   \relative  a {
     \clef "bass"   \key des \major  \time 4/4 
@@ -60,7 +60,7 @@ Trob = \new Staff \with {
  
 Trump = \new Staff \with {
   instrumentName = "Trompete"
-  shortInstrumentName = "Pete."
+  shortInstrumentName = "Pete"
 }
   \relative   {
     \key ees \major  \time 4/4  
