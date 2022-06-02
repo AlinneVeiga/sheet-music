@@ -86,16 +86,6 @@ PartPTwoVoiceOne =  \relative as, {
     R1 \bar "|."
     }
 
-PartPTwoVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t
-    "creator: " \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    }
 
 PartPThreeVoiceOne =  \relative as' {
     \clef "treble" \numericTimeSignature\time 4/4 \key es \major
@@ -147,8 +137,7 @@ PartPThreeVoiceOne =  \relative as' {
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                 \context Voice = "PartPTwoVoiceOne" {  \PartPTwoVoiceOne }
-                \new Lyrics \lyricsto "PartPTwoVoiceOne" { \set stanza = "1." \PartPTwoVoiceOneLyricsOne }
-                >>
+                 >>
             >>
         \new Staff
         <<
@@ -164,6 +153,6 @@ PartPThreeVoiceOne =  \relative as' {
         >>
     \layout {}
     % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 60 }
+     \midi {\tempo 4 = 60 }
     }
 
