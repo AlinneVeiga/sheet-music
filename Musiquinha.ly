@@ -3,7 +3,9 @@
 \pointAndClickOff
 
 \header {
-        encodingsoftware =  "MuseScore 3.6.2"
+       title =  "Musiquinha para o Leo tocar"
+       composer =  "Alinne Veiga"
+       encodingsoftware =  "MuseScore 3.6.2"
     encodingdate =  "2022-06-25"
     }
 
@@ -48,7 +50,7 @@ PartPOneVoiceOne =  \relative c' {
     \stemUp e4 \stemUp <g b>4 r4 | % 21
     \stemUp c,4 \stemUp <e g>4 r4 | % 22
     \stemUp e4 \stemUp <g b>4 r4 | % 23
-    \stemUp c,4 \stemUp <e g>4 r4 }
+    \stemUp c,4 \stemUp <e g>2 }
 
 PartPTwoVoiceOne =  \relative c {
     \clef "bass" \time 3/4 \key c \major | % 1
@@ -74,7 +76,7 @@ PartPTwoVoiceOne =  \relative c {
     \stemDown e2 \stemDown g4 | % 21
     \stemUp c,2 \stemDown g'4 | % 22
     \stemDown e2 \stemDown g4 | % 23
-    \stemUp c,2 r4 }
+    \stemUp c,2. }
 
 PartPThreeVoiceOne =  \relative e'' {
     \clef "treble" \time 3/4 \key c \major | % 1
