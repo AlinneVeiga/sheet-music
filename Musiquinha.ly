@@ -3,7 +3,7 @@
 \pointAndClickOff
 
 \header {
-    encodingsoftware =  "MuseScore 3.6.2"
+        encodingsoftware =  "MuseScore 3.6.2"
     encodingdate =  "2022-06-25"
     }
 
@@ -138,6 +138,6 @@ PartPThreeVoiceOne =  \relative e'' {
         >>
     \layout {}
     % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 100 }
+     \midi {\tempo 4 = 100 }
     }
 
